@@ -38,10 +38,7 @@ public class View {
 		
 		btnWriteData = new JButton("Write Data");
 		btnWriteData.setBounds(243, 408, 117, 29);
-		
-		
 		panel.add(btnWriteData);
-		panel.add(lblToChange);
 		
 		btnReadData = new JButton("Read Data");
 		btnReadData.setBounds(243, 62, 117, 29);

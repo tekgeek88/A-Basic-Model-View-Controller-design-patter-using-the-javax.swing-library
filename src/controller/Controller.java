@@ -21,7 +21,6 @@ public class Controller {
 
 
 	public String getMessage() {
-
 		try {
 			return model.getData();
 		}

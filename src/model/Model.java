@@ -14,6 +14,8 @@ public class Model {
 
     
     //--------------------  Methods of Madness -------------------------
+	
+	
     public String getData() throws FileNotFoundException, IOException {
 		// If file.txt does not exist create one
 		if(!(new File("file.txt").isFile())) {
